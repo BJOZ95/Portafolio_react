@@ -1,0 +1,41 @@
+.pie_de_pagina{
+    background: hsla(244, 72%, 43%, 0.808);
+    font-style: normal;
+    font-weight: normal;
+    font-family: cursive;
+    font-size: 1.5rem;
+    display: flex;
+    height: 10vh;
+    color:black;
+    justify-content: space-around;
+    align-items: center;    
+}
+.etiquetas{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: all 0.8s ease-in-out;
+    box-shadow: 5px 5px rgb(0, 0, 0);
+}
+.etiquetas:hover{
+    margin-right: 35px;
+    border-radius: 25px;
+    background: rgb(255, 31, 236);    
+}
+.red_s{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    transition: all 0.3s ease-in;
+    background-size: cover;
+}
+.red_s:hover{
+    opacity: 0.6;
+}
+.youtube{
+    height: 50px;
+    width: 50px;
+}

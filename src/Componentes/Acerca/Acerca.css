@@ -1,0 +1,60 @@
+.bloque2{
+    width: 100%;
+    height: 100vh;    
+    display: flex;
+    align-items: center;
+    margin: auto;
+    flex-direction:column-reverse ;
+    padding: 100px;
+    background-image: url("../../img/um.jpg");    
+    background-size: 100%;
+    background-repeat: no-repeat;
+        
+}
+.text2{
+    height:auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.text2 h1{
+    font-size: 2.5em;
+    color: rgb(13, 55, 170);
+    padding: 10px;
+    font-weight: 900;
+
+}
+.text2 p{
+    font-size: 2em;
+    padding: 10px;
+    color: rgb(14, 15, 14);
+
+}
+.text2 a{
+    display: inline-block;
+    font-size: 1.50em;
+    color: black;
+    font-weight: 600;
+    text-decoration: solid;
+    margin-left: 20px;
+    border: 2px solid cyan;
+    width: 160px;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 7px;
+    box-shadow: 5px 5px rgba(173, 6, 189, 0.4);
+    transition: all 0.8s ease-in;
+    align-items: center;
+    justify-content: center;
+    transform: translatex(350px);
+}
+.text2 a:hover{
+    margin-right: 35px;
+    border-radius: 25px;
+    background: rgb(255, 31, 236);
+}
+.bloque2 img{
+    width: 140px;
+    display: flex;
+    border-radius: 50px;
+    transform: translateY(-30px);
+}

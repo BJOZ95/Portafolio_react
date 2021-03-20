@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Fraunces', serif;
+  background: rgba(27,164,219,1);
+background: -moz-linear-gradient(left, rgba(27,164,219,1) 0%, rgba(34,156,205,1) 5%, rgba(76,108,115,1) 36%, rgba(27,164,219,1) 57%, rgba(25,146,191,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(27,164,219,1)), color-stop(5%, rgba(34,156,205,1)), color-stop(36%, rgba(76,108,115,1)), color-stop(57%, rgba(27,164,219,1)), color-stop(100%, rgba(25,146,191,1)));
+background: -webkit-linear-gradient(left, rgba(27,164,219,1) 0%, rgba(34,156,205,1) 5%, rgba(76,108,115,1) 36%, rgba(27,164,219,1) 57%, rgba(25,146,191,1) 100%);
+background: -o-linear-gradient(left, rgba(27,164,219,1) 0%, rgba(34,156,205,1) 5%, rgba(76,108,115,1) 36%, rgba(27,164,219,1) 57%, rgba(25,146,191,1) 100%);
+background: -ms-linear-gradient(left, rgba(27,164,219,1) 0%, rgba(34,156,205,1) 5%, rgba(76,108,115,1) 36%, rgba(27,164,219,1) 57%, rgba(25,146,191,1) 100%);
+background: linear-gradient(to right, rgba(27,164,219,1) 0%, rgba(34,156,205,1) 5%, rgba(76,108,115,1) 36%, rgba(27,164,219,1) 57%, rgba(25,146,191,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ba4db', endColorstr='#1992bf', GradientType=1 );
+}
+html{
+  scroll-behavior: smooth;
+}

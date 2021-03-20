@@ -1,0 +1,62 @@
+.servicio{
+    color:rgb(160, 4, 160);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    
+}
+.servicio-titulo{
+    color: blueviolet;
+    font-weight: 800;
+    font-size: 2.52rem;
+}
+.servicio-cajas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+    column-gap: 2rem;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tarjeta{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.tarjeta-parrafo{
+width: 350px;
+}
+.tarjeta-imagen{
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    margin: 1rem 0;
+    transition: all 1s ease-in-out;
+}
+.tarjeta-imagen:hover{
+    transform: rotate(360deg);
+}
+/*-------------------------------------------------------------------------------------*/
+@media screen and (max-width:500){
+    .servicio-titulo{
+        font-size: 1.5rem;
+    }
+    .tarjeta-parrafo{
+        width: 200px;
+        text-align: justify;
+    }
+    .tarjeta-imagen{
+        width: 70px;
+        height: 70px;
+    }
+}

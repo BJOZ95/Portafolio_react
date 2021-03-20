@@ -1,0 +1,90 @@
+.contactame{
+    height: 100vh;
+    background-image: url(../../img/fondo1.png);
+    background-repeat: no-repeat;
+    background-size: 1307px 700px;
+    display: flex;
+    
+    
+}
+.contactame div{
+    background: rgba(161,88,245,0.87);
+    background: -moz-linear-gradient(top, rgba(161,88,245,0.87) 0%, rgba(160,89,244,0.87) 1%, rgba(52,135,191,0.98) 86%, rgba(52,135,191,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(161,88,245,0.87)), color-stop(1%, rgba(160,89,244,0.87)), color-stop(86%, rgba(52,135,191,0.98)), color-stop(100%, rgba(52,135,191,1)));
+    background: -webkit-linear-gradient(top, rgba(161,88,245,0.87) 0%, rgba(160,89,244,0.87) 1%, rgba(52,135,191,0.98) 86%, rgba(52,135,191,1) 100%);
+    background: -o-linear-gradient(top, rgba(161,88,245,0.87) 0%, rgba(160,89,244,0.87) 1%, rgba(52,135,191,0.98) 86%, rgba(52,135,191,1) 100%);
+    background: -ms-linear-gradient(top, rgba(161,88,245,0.87) 0%, rgba(160,89,244,0.87) 1%, rgba(52,135,191,0.98) 86%, rgba(52,135,191,1) 100%);
+    background: linear-gradient(to bottom, rgba(161,88,245,0.87) 0%, rgba(160,89,244,0.87) 1%, rgba(52,135,191,0.98) 86%, rgba(52,135,191,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a158f5', endColorstr='#3487bf', GradientType=0 );
+    width: 400px;
+    height: 500px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 70px;   
+    border-radius: 4px;
+
+    font-family: fantasy;
+    color: deepskyblue;
+    box-shadow: 8px 7px rgba(214, 9, 170, 0.603);
+}
+.contactame h1{
+    margin-bottom: 20px;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+
+.campos{
+    width: 100%;
+    background: cyan;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    border: 2px solid #641B1B;
+    font-family: cursive;
+    font-size: 20px;
+    line-height: 20px;
+}
+.contactame a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.8s ease-in-out;
+    width: 100%;
+}
+.contactame a:hover{
+    margin-right: 35px;
+    border-radius: 5px;
+    background: rgb(255, 31, 236);
+}
+.contactame .enviar{
+background:rgb(34, 173, 207);
+width: 100%;
+padding-top: 10px;
+text-align: center;
+display: flex;
+justify-content: center;
+text-decoration: underline;
+border: none;
+padding: 12px;
+color: rgb(19, 19, 19);
+margin: 16px 0;
+font-size: 18px;
+font-family: cursive;
+font-weight: 600;
+border-radius: 5px;
+}
+.email{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    transform: translateX(20px);
+}
+.contactame .correo{
+    color: black;
+    text-align: center;
+    font-size: 17px;
+    transform: translateY(-30px);
+    text-decoration: underline ;
+}
